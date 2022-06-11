@@ -13,10 +13,10 @@ namespace esoft2
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class esoftEntities : DbContext
+    public partial class WFTutorialEntities : DbContext
     {
-        public esoftEntities()
-            : base("name=esoftEntities")
+        public WFTutorialEntities()
+            : base("name=WFTutorialEntities")
         {
         }
     

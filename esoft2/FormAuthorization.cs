@@ -31,7 +31,7 @@ namespace esoft2
             { MessageBox.Show("Введите данные!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Information); }
             else { 
                 bool key = false;
-                foreach (Users user in Program.es.Users)
+                foreach (Users user in Program.wft.Users)
                 {
                     if (textBoxLogin.Text == user.Login && textBoxPassword.Text == user.Password)
                     {

@@ -8,7 +8,7 @@ namespace esoft2
 {
     static class Program
     {
-        public static esoftEntities es = new esoftEntities();
+        public static WFTutorialEntities wft = new WFTutorialEntities();
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>

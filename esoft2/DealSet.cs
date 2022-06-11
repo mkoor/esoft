@@ -17,5 +17,8 @@ namespace esoft2
         public int Id { get; set; }
         public int IdSupply { get; set; }
         public int IdDemand { get; set; }
+    
+        public virtual DemandSet DemandSet { get; set; }
+        public virtual SupplySet SupplySet { get; set; }
     }
 }
