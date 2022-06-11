@@ -89,6 +89,7 @@
             this.buttonOpenDeals.TabIndex = 16;
             this.buttonOpenDeals.Text = "Сделки";
             this.buttonOpenDeals.UseVisualStyleBackColor = false;
+            this.buttonOpenDeals.Click += new System.EventHandler(this.buttonOpenDeals_Click);
             // 
             // buttonOpenDemand
             // 
@@ -102,6 +103,7 @@
             this.buttonOpenDemand.TabIndex = 15;
             this.buttonOpenDemand.Text = "Потребности";
             this.buttonOpenDemand.UseVisualStyleBackColor = false;
+            this.buttonOpenDemand.Click += new System.EventHandler(this.buttonOpenDemand_Click);
             // 
             // buttonOpenSupplies
             // 
@@ -115,6 +117,7 @@
             this.buttonOpenSupplies.TabIndex = 14;
             this.buttonOpenSupplies.Text = "Предложения";
             this.buttonOpenSupplies.UseVisualStyleBackColor = false;
+            this.buttonOpenSupplies.Click += new System.EventHandler(this.buttonOpenSupplies_Click);
             // 
             // buttonOpenRealEstates
             // 
@@ -128,6 +131,7 @@
             this.buttonOpenRealEstates.TabIndex = 13;
             this.buttonOpenRealEstates.Text = "Объекты недвижимости";
             this.buttonOpenRealEstates.UseVisualStyleBackColor = false;
+            this.buttonOpenRealEstates.Click += new System.EventHandler(this.buttonOpenRealEstates_Click);
             // 
             // buttonOpenAgents
             // 
@@ -142,6 +146,7 @@
             this.buttonOpenAgents.TabIndex = 11;
             this.buttonOpenAgents.Text = "Риелторы";
             this.buttonOpenAgents.UseVisualStyleBackColor = false;
+            this.buttonOpenAgents.Click += new System.EventHandler(this.buttonOpenAgents_Click);
             // 
             // buttonOpenClients
             // 

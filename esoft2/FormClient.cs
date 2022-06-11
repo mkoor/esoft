@@ -15,6 +15,7 @@ namespace esoft2
         public FormClient()
         {
             InitializeComponent();
+            ShowClient();
         }
 
         private void listViewClient_SelectedIndexChanged(object sender, EventArgs e)

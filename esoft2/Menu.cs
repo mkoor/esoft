@@ -31,7 +31,8 @@ namespace esoft2
 
         private void buttonOpenClients_Click(object sender, EventArgs e)
         {
-
+            FormClient client = new FormClient();
+            client.Show();
         }
 
         private void buttonExit_Click(object sender, EventArgs e)
@@ -39,6 +40,36 @@ namespace esoft2
             FormAuthorization auto = new FormAuthorization();
             this.Close();
             auto.Show();
+        }
+
+        private void buttonOpenAgents_Click(object sender, EventArgs e)
+        {
+            FormAgent agent = new FormAgent();
+            agent.Show();
+        }
+
+        private void buttonOpenRealEstates_Click(object sender, EventArgs e)
+        {
+            FormRealEstate re = new FormRealEstate();
+            re.Show();
+        }
+
+        private void buttonOpenSupplies_Click(object sender, EventArgs e)
+        {
+            FormSupply sup = new FormSupply();
+            sup.Show();
+        }
+
+        private void buttonOpenDemand_Click(object sender, EventArgs e)
+        {
+            FormDemand dem = new FormDemand();
+            dem.Show();
+        }
+
+        private void buttonOpenDeals_Click(object sender, EventArgs e)
+        {
+            FormDeal dea = new FormDeal();
+            dea.Show();
         }
     }
 }
